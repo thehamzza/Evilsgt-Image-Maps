@@ -2,14 +2,14 @@
 
 
 Arguments:
- The client wants to extract island data from OpenStreetMap API and create an active
+- The client wants to extract island data from OpenStreetMap API and create an active
 contour model from it.
- The active contour model will be used to classify satellite images of the island and
+- The active contour model will be used to classify satellite images of the island and
 identify its name.
- The client wants to create a dataset for the island using the active contour model.
- The dataset will contain multiple versions of the active contour model at different
+- the client wants to create a dataset for the island using the active contour model.
+- The dataset will contain multiple versions of the active contour model at different
 rotations.
- By creating a dataset that contains multiple versions of the active contour model at
+- By creating a dataset that contains multiple versions of the active contour model at
 different rotations, the client will be able to classify images of the island regardless of
 their orientation.
 
@@ -20,11 +20,11 @@ Objectives:
 -Create a dataset for the island using the active contour model. 
 
 Requirements:
- Access to OpenStreetMap API data.
- An algorithm for extracting the coastline nodes of the island from OpenStreetMap data.
- An algorithm for creating an active contour model from the coastline nodes.
- Iterative closest point (ICP)” method for calculating the similarity.
- A method for creating a dataset for the island using the active contour model.
+- Access to OpenStreetMap API data.
+- An algorithm for extracting the coastline nodes of the island from OpenStreetMap data.
+- An algorithm for creating an active contour model from the coastline nodes.
+- Iterative closest point (ICP)” method for calculating the similarity.
+- A method for creating a dataset for the island using the active contour model.
 
 Proposed Solution:
 
