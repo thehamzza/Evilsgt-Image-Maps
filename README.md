@@ -14,10 +14,10 @@ different rotations, the client will be able to classify images of the island re
 their orientation.
 
 ### Objectives:
--Extract island data from OpenStreetMap API. 
--Create an active contour model from the island data.
--Use the active contour model to classify satellite images of the island and identify its name. 
--Create a dataset for the island using the active contour model. 
+- Extract island data from OpenStreetMap API. 
+- Create an active contour model from the island data.
+- Use the active contour model to classify satellite images of the island and identify its name. 
+- Create a dataset for the island using the active contour model. 
 
 ### Requirements:
 - Access to OpenStreetMap API data.
